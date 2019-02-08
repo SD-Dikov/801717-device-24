@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
@@ -13,9 +16,13 @@
         <a href="/index.html" class="main-header-logo">
           <img src="img/main-header-logo.svg" alt="Логотип сайта Девайс" width="163" height="35">
         </a>
-        <ul class="main-header-user-menu">
-          <li>
-            <a href="#">Поиск по сайту</a>
+        <ul class="header-user-menu">
+          <li class="user-menu-search">
+            <form class="site-search" action="index.html" method="set">
+              <input type="search" name="search" placeholder="Поиск по сайту">
+              <button type="submit" name="search-btn" class="search-btn">Найти</button>
+            </form>
+            <!-- <a href="#">Поиск по сайту</a> -->
           </li>
           <li>
             <a href="#">Войти</a>
@@ -27,7 +34,7 @@
             <a href="#">Корзина</a>
           </li>
         </ul>
-        <ul class="main-header-site-menu">
+        <ul class="header-site-menu">
           <li>
             <a href="/catalog.html">Каталог товаров</a>
             <ul class="catalog-navigation">
