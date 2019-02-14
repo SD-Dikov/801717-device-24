@@ -4,7 +4,7 @@ body {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: #464646;
 }
 
@@ -43,7 +43,7 @@ a {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: #000000;
 }
 
@@ -61,7 +61,7 @@ a {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: 300;
   color: #000000;
 }
 
@@ -113,7 +113,7 @@ a {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: #464646;
 }
 
@@ -130,7 +130,7 @@ a {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 300;
   color: #464646;
 }
 
@@ -193,7 +193,7 @@ opacity: 0.3;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: #464646;
 }
 
@@ -228,7 +228,7 @@ color: #000000;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: #464646;
 }
 .main-info-text-list{
@@ -238,4 +238,39 @@ color: #000000;
   line-height: 40px;
   font-weight: 700;
   color: #000000;
+}
+
+/* FOOTER */
+
+.main-footer{
+  background-color: #464646;
+
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  background-color: #464646;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.main-footer-user-menu,
+.main-footer-site-menu,
+.main-footer-social-list{
+  list-style: none;
+}
+.main-footer-site-menu-link{
+  background-color: #464646;
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  color: #ffffff;
+}
+.main-footer-user-menu-link{
+  background-color: #464646;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
 }
