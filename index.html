@@ -4,63 +4,64 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet"> -->
-  <!-- <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="main-header">
-    <div class="header-column">
+    <div class="main-header-column">
       <a class="main-header-logo">
         <img src="img/main-header-logo.svg" alt="Логотип сайта Девайс" width="163" height="35">
       </a>
-      <form class="site-search" action="index.html" method="set">
-        <input type="search" name="search" placeholder="Поиск по сайту">
-        <button type="submit" name="search-btn" class="search-btn">Найти</button>
+      <form class="main-header-site-search" action="index.html" method="set">
+        <input class="main-header-site-search-input" type="search" name="search" placeholder="Поиск по сайту">
+        <button type="submit" name="search-btn" class="main-header-site-search-btn">Найти</button>
       </form>
-      <a href="catalog" class="navigation-catalog-btn">Каталог товаров</a>
-      <ul class="catalog-navigation">
-        <li>
-          <a href="vr-catalog">Виртуальная реальность</a>
+      <a href="catalog" class="main-header-navigation-catalog-btn">Каталог товаров</a>
+      <ul class="main-header-catalog-navigation">
+        <li class="main-header-catalog-navigation-item">
+          <a href="vr-catalog" class="main-header-catalog-navigation-link">Виртуальная реальность</a>
         </li>
-        <li>
-          <a href="selfie-catalog">Моноподы для селфи</a>
+        <li class="main-header-catalog-navigation-item">
+          <a href="selfie-catalog" class="main-header-catalog-navigation-link">Моноподы для селфи</a>
         </li>
-        <li>
-          <a href="cameras-catalog">Экшн-камеры</a>
+        <li class="main-header-catalog-navigation-item">
+          <a href="cameras-catalog" class="main-header-catalog-navigation-link">Экшн-камеры</a>
         </li>
-        <li>
-          <a href="menu-catalog">Фитнес-браслеты</a>
+        <li class="main-header-catalog-navigation-item">
+          <a href="menu-catalog" class="main-header-catalog-navigation-link">Фитнес-браслеты</a>
         </li>
-        <li>
-          <a href="watch-catalog">Умные часы</a>
+        <li class="main-header-catalog-navigation-item">
+          <a href="watch-catalog" class="main-header-catalog-navigation-link">Умные часы</a>
         </li>
-        <li>
-          <a href="copters-catalog">Квадрокоптеры</a>
+        <li class="main-header-catalog-navigation-item">
+          <a href="copters-catalog" class="main-header-catalog-navigation-link">Квадрокоптеры</a>
         </li>
       </ul>
     </div>
     <nav class="main-navigation">
-      <ul class="header-user-menu">
-        <li>
-          <a href="#">Войти</a>
+      <ul class="main-header-user-menu">
+        <li class="main-header-user-menu-item">
+          <a href="#" class="main-header-user-menu-link">Войти</a>
         </li>
-        <li>
-          <a href="#">Сравнить</a>
+        <li class="main-header-user-menu-item">
+          <a href="#" class="main-header-user-menu-link">Сравнить</a>
         </li>
-        <li>
-          <a href="#">Корзина</a>
+        <li class="main-header-user-menu-item">
+          <a href="#" class="main-header-user-menu-link">Корзина</a>
         </li>
       </ul>
-      <ul class="header-site-menu">
-        <a href="/delivery.html">Доставка</a>
+      <ul class="main-header-site-menu">
+        <li class="main-header-site-menu-item">
+        <a href="/delivery.html" class="main-header-site-menu-link">Доставка</a>
         </li>
-        <li>
-          <a href="/warranty.html">Гарантия</a>
+        <li class="main-header-site-menu-item">
+          <a href="/warranty.html" class="main-header-site-menu-link">Гарантия</a>
         </li>
-        <li>
-          <a href="/Contacts.html">Контакты</a>
+        <li class="main-header-site-menu-item">
+          <a href="/Contacts.html" class="main-header-site-menu-link">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -81,9 +82,9 @@
               Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
             </p>
             <p class="promo-item-button">
-              <a href="#">Подробнее</a>
+              <a href="#" class="promo-item-button-link main-btn">Подробнее</a>
             </p>
-            <table class="promo-item-characteristic">
+            <table class="promo-item-characteristics">
               <tr class="promo-item-characteristics-name">
                 <td>Длина палки</td>
                 <td>Вес палки</td>
@@ -108,9 +109,9 @@
               не пропускать занятия и соблюдать диету.
             </p>
             <p class="promo-item-button">
-              <a href="#">Подробнее</a>
+              <a href="#" class="promo-item-button-link main-btn">Подробнее</a>
             </p>
-            <table class="promo-item-characteristic">
+            <table class="promo-item-characteristics">
               <tr class="promo-item-characteristics-name">
                 <td>Без подзарядки</td>
               </tr>
@@ -131,9 +132,9 @@
               мощным лазером, замаскированным под стандартную камеру.
             </p>
             <p class="promo-item-button">
-              <a href="#">Подробнее</a>
+              <a href="#" class="promo-item-button-link main-btn">Подробнее</a>
             </p>
-            <table class="promo-item-characteristic">
+            <table class="promo-item-characteristics">
               <tr class="promo-item-characteristics-name">
                 <td>Дальность полета</td>
                 <td>Радиус поражения</td>
@@ -147,38 +148,37 @@
         </li>
       </ul>
       <p class="promo-item-pagination">
-        <button type="button" class="promo-btn current">1</button>
-        <button type="button" class="promo-btn">2</button>
-        <button type="button" class="promo-btn">3</button>
+        <button type="button" class="promo-btn current"><span class="visually-hidden">1</span></button>
+        <button type="button" class="promo-btn"><span class="visually-hidden">2</span></button>
+        <button type="button" class="promo-btn"><span class="visually-hidden">3</span></button>
       </p>
     </section>
     <section class="main-catalog">
       <h2 class="visually-hidden">Каталог</h2>
       <ul class="main-catalog-list">
-        <li class="catalog-item main-catalog-virtreal">
-          <a href="vr-catalog">Виртуальная реальность</a>
+        <li class="main-catalog-item main-catalog-virtreal">
+          <a href="vr-catalog" class="main-catalog-item-link">Виртуальная реальность</a>
         </li>
-        <li class="catalog-item main-catalog-selfie">
-          <a href="selfie-catalog">Моноподы для селфи</a>
+        <li class="main-catalog-item main-catalog-selfie">
+          <a href="selfie-catalog" class="main-catalog-item-link">Моноподы для селфи</a>
         </li>
-        <li class="catalog-item main-catalog-cameras">
-          <a href="cameras-catalog">Экшн-камеры</a>
+        <li class="main-catalog-item main-catalog-cameras">
+          <a href="cameras-catalog" class="main-catalog-item-link">Экшн-камеры</a>
         </li>
-        <li class="catalog-item main-catalog-fitnes">
-          <a href="fitnes-catalog">Фитнес-браслеты</a>
+        <li class="main-catalog-item main-catalog-fitnes">
+          <a href="fitnes-catalog" class="main-catalog-item-link">Фитнес-браслеты</a>
         </li>
-        <li class="catalog-item main-catalog-watch">
-          <a href="watch-catalog">Умные часы</a>
+        <li class="main-catalog-item main-catalog-watch">
+          <a href="watch-catalog" class="main-catalog-item-link">Умные часы</a>
         </li>
-        <li class="catalog-item main-catalog-copters">
-          <a href="copters-catalog">Квадрокоптеры</a>
+        <li class="main-catalog-item main-catalog-copters">
+          <a href="copters-catalog" class="main-catalog-item-link">Квадрокоптеры</a>
         </li>
       </ul>
     </section>
     <section class="services">
       <h2 class="visually-hidden">Сервис</h2>
       <ul class="services-item-list">
-        <!-- Не могу придумать классы этому списку -->
         <li class="services-item">
           <button type="button" class="services-button">Доставка</button>
         </li>
@@ -214,26 +214,26 @@
         </li>
       </ul>
     </section>
-    <section class="brand-section">
+    <section class="main-brand-section">
       <h2 class="visually-hidden">Бренды</h2>
-      <ul class="brand-item-list">
-        <li class="brand-item">
-          <a class="brand-link" href="#">
+      <ul class="main-brand-item-list">
+        <li class="main-brand-item">
+          <a class="main-brand-link" href="#">
             <img src="img/logo-dji.png" alt="Логотип Dji" width="260" height="100">
           </a>
         </li>
-        <li class="brand-item">
-          <a class="brand-link" href="#">
+        <li class="main-brand-item">
+          <a class="main-brand-link" href="#">
             <img src="img/logo-sp-gadgets.png" alt="Логотип Sp gadgets" width="260" height="100">
           </a>
         </li>
-        <li class="brand-item">
-          <a class="brand-link" href="#">
+        <li class="main-brand-item">
+          <a class="main-brand-link" href="#">
             <img src="img/logo-gopro.png" alt="Логотип GoPro" width="260" height="100">
           </a>
         </li>
-        <li class="brand-item">
-          <a class="brand-link" href="#">
+        <li class="main-brand-item">
+          <a class="main-brand-link" href="#">
             <img src="img/logo-vive.png" alt="Логотип Vive" width="260" height="100">
           </a>
         </li>
@@ -250,11 +250,11 @@
           Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:
         </p>
         <ul class="main-info-text-list">
-          <li>Деловые Линии</li>
-          <li>Автотрейдинг</li>
-          <li>ЖелДорЭкспедиция</li>
+          <li class="main-info-text-list-item">Деловые Линии</li>
+          <li class="main-info-text-list-item">Автотрейдинг</li>
+          <li class="main-info-text-list-item">ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#" class="button">Подробнее о нас</a>
+        <a href="#" class="main-info-button-text main-btn">Подробнее о нас</a>
       </div>
       <div class="main-info-contacts">
         <h2 class="main-contacts-title">Контакты</h2>
@@ -268,7 +268,7 @@
         </a>
         <!-- </p> -->
         <!-- <p class="main-contacts-feedback"> -->
-        <a href="feedback" class="button">Напишите нам</a>
+        <a href="feedback" class="main-info-contacts-button main-btn">Напишите нам</a>
         <!-- </p> -->
       </div>
     </section>

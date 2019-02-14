@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+/* MAIN BTN */
+.main-header{
+  background-image: linear-gradient(#ffffff 19px, rgba(240, 197, 46, 0.5) 19px);
+}
+
+.main-btn {
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  color: #000000;
+
+  background-image: linear-gradient(transparent 33%, #f0c52e 33%, #f0c52e 66%, transparent 66%);
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #f0c52e;
+}
+
+.main-btn:active {
+  opacity: 0.3;
+  background-color: #f0c52e;
+}
+
+/* MAIN HEADER */
+.main-header-site-search,
+.main-header-user-menu-link {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.main-header-navigation-catalog-btn,
+.main-header-site-menu-link {
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  color: #000000;
+}
+
+.main-header-catalog-navigation-link {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.main-header-site-search:hover,
+.main-header-user-menu-link:hover,
+.main-header-navigation-catalog-btn:hover,
+.main-header-site-menu-link:hover,
+.main-header-catalog-navigation-link:hover,
+.main-header-site-search:focus,
+.main-header-user-menu-link:focus,
+.main-header-navigation-catalog-btn:focus,
+.main-header-site-menu-link:focus,
+.main-header-catalog-navigation-link:focus,
+.main-header-logo:hover,
+.main-header-logo:focus {
+  opacity: 0.6;
+}
+
+.main-header-site-search:active,
+.main-header-user-menu-link:active,
+.main-header-navigation-catalog-btn:active,
+.main-header-site-menu-link:active,
+.main-header-catalog-navigation-link:active,
+.main-header-logo:active {
+  opacity: 0.3;
+}
+
+.main-header-catalog-navigation,
+.main-header-user-menu,
+.main-header-site-menu {
+  list-style: none;
+}
+
+/* PROMO */
+.promo-item-title {
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 47px;
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  color: #000000;
+}
+
+.promo-item-list {
+  list-style: none;
+}
+
+.promo-item-text {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #464646;
+}
+
+.promo-item-button-link {
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  color: #000000;
+}
+
+.promo-item-characteristics-name {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #464646;
+}
+
+.promo-item-characteristics-value {
+  font-family: "Gilroy-Light", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 300;
+  color: #000000;
+}
+/* CATALOG */
+
+.main-catalog-item-link{
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+.main-catalog-list{
+  list-style: none;
+}
+.main-catalog-item-link:hover,
+.main-catalog-item-link:focus{
+
+}
+.main-catalog-item-link:active{
+opacity: 0.3;
+}
+/* .main-catalog-item-link::before{
+  content: "";
+  width: 160px;
+  height: 160px;
+  background-color: rgba(94,77,18,0.5);
+} */
+
+/* SERVICES */
+
+.services-item-list,
+.services-article-list{
+  list-style: none;
+}
+.services-button{
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  color: #000000;
+}
+.services-article-title{
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  color: #000000;
+}
+.services-article-text{
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #464646;
+}
+
+/* BRANDS */
+
+.main-brand-item-list{
+  list-style: none;
+}
+.main-brand-link{
+  opacity: 0.2;
+  filter: grayscale(1);
+}
+.main-brand-link:hover{
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+/* ABOUT */
+
+.main-info-title,
+.main-contacts-title{
+font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+font-size: 47px;
+line-height: 48px;
+font-weight: 700;
+/* letter-spacing: 3.6px; */
+color: #000000;
+}
+.main-info-text-about,
+.main-info-text-delivery,
+.main-contacts-text{
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #464646;
+}
+.main-info-text-list{
+  list-style: none;
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+}
