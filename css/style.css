@@ -12,7 +12,13 @@ a {
   text-decoration: none;
 }
 
-/* MAIN BTN */
+/* BTN */
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
 .main-btn {
   font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 18px;
@@ -29,7 +35,7 @@ a {
 }
 
 .main-btn:active {
-  opacity: 0.3;
+  color: rgba(0, 0, 0, 0.3);
   background-color: #f0c52e;
 }
 
@@ -66,25 +72,55 @@ a {
 }
 
 .main-header-site-search:hover,
+.main-header-site-search:focus {
+  opacity: 0.6;
+}
+
 .main-header-user-menu-link:hover,
+.main-header-user-menu-link:focus {
+  opacity: 0.6;
+}
+
 .main-header-navigation-catalog-btn:hover,
+.main-header-navigation-catalog-btn:focus {
+  opacity: 0.6;
+}
+
 .main-header-site-menu-link:hover,
+.main-header-site-menu-link:focus {
+  opacity: 0.6;
+}
+
 .main-header-catalog-navigation-link:hover,
-.main-header-site-search:focus,
-.main-header-user-menu-link:focus,
-.main-header-navigation-catalog-btn:focus,
-.main-header-site-menu-link:focus,
-.main-header-catalog-navigation-link:focus,
+.main-header-catalog-navigation-link:focus {
+  opacity: 0.6;
+}
+
 .main-header-logo:hover,
 .main-header-logo:focus {
   opacity: 0.6;
 }
 
-.main-header-site-search:active,
-.main-header-user-menu-link:active,
-.main-header-navigation-catalog-btn:active,
-.main-header-site-menu-link:active,
-.main-header-catalog-navigation-link:active,
+.main-header-site-search:active {
+  opacity: 0.6;
+}
+
+.main-header-user-menu-link:active {
+  opacity: 0.6;
+}
+
+.main-header-navigation-catalog-btn:active {
+  opacity: 0.6;
+}
+
+.main-header-site-menu-link:active {
+  opacity: 0.6;
+}
+
+.main-header-catalog-navigation-link:active {
+  opacity: 0.6;
+}
+
 .main-header-logo:active {
   opacity: 0.3;
 }
@@ -185,6 +221,24 @@ a {
   font-weight: 700;
   letter-spacing: 3.6px;
   color: #000000;
+  background-image: linear-gradient(transparent 33%, #f0c52e 33%, #f0c52e 66%, transparent 66%);
+}
+
+.services-button:hover,
+.services-button:focus {
+  background-color: #f0c52e;
+}
+
+.services-button:active {
+  background-image: none;
+  color: #f7e184;
+  background-color: #000000;
+}
+
+.current .services-button {
+  background-image: none;
+  color: #f7e184;
+  background-color: #000000;
 }
 
 .services-article-title {
@@ -275,16 +329,25 @@ a {
   letter-spacing: 3.6px;
   color: #ffffff;
 }
+
 .main-footer-logo:hover,
-.main-footer-logo:focus,
-.main-footer-site-menu-link:hover,
-.main-footer-site-menu-link:focus{
+.main-footer-logo:focus {
   opacity: 0.6;
 }
-.main-footer-logo:active,
-.main-footer-site-menu-link:active{
+
+.main-footer-site-menu-link:hover,
+.main-footer-site-menu-link:focus {
+  opacity: 0.6;
+}
+
+.main-footer-logo:active {
   opacity: 0.3;
 }
+
+.main-footer-site-menu-link:active {
+  opacity: 0.3;
+}
+
 .main-footer-user-menu-link {
   background-color: #464646;
   font-family: "OpenSans-Light", Arial, sans-serif;
@@ -294,13 +357,16 @@ a {
   color: #ffffff;
   opacity: 0.7;
 }
+
 .main-footer-user-menu-link:hover,
-.main-footer-user-menu-link:focus{
+.main-footer-user-menu-link:focus {
   opacity: 1;
 }
-.main-footer-user-menu-link:active{
+
+.main-footer-user-menu-link:active {
   opacity: 0.3;
 }
+
 /* ------------------------------------------------------------------------------------ */
 /* CATALOG*/
 .catalog-title {
@@ -332,7 +398,8 @@ a {
 .breadcrumbs-link:active {
   color: rgba(0, 0, 0, 0.1);
 }
-.current .breadcrumbs-link{
+
+.current .breadcrumbs-link {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -350,9 +417,10 @@ a {
 }
 
 /* FILTERS */
-.filters{
+.filters {
   background-color: rgba(0, 0, 0, 0.08);
 }
+
 .filters-title {
   font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 16px;
@@ -397,9 +465,10 @@ a {
 }
 
 /* SORTING */
-.sorting{
+.sorting {
   background-color: rgba(0, 0, 0, 0.08);
 }
+
 .sorting-title {
   font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 16px;
@@ -430,16 +499,17 @@ a {
   color: rgba(0, 0, 0, 1);
 }
 
-.current .sorting-link{
+.current .sorting-link {
   color: rgba(0, 0, 0, 1);
 }
 
 /* CATALOG-ITEMS */
 .catalog-items-list,
-.catalog-pagination-list{
+.catalog-pagination-list {
   list-style: none;
 }
-.catalog-items-item-link{
+
+.catalog-items-item-link {
   font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -447,14 +517,17 @@ a {
   letter-spacing: 0.18px;
   color: #000000;
 }
+
 .catalog-items-item-link:hover,
-.catalog-items-item-link:focus{
+.catalog-items-item-link:focus {
   opacity: 0.6;
 }
-.catalog-items-item-link:active{
+
+.catalog-items-item-link:active {
   opacity: 0.3;
 }
-.catalog-items-item-price{
+
+.catalog-items-item-price {
   font-family: "Gilroy-Light", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -462,27 +535,33 @@ a {
   font-weight: 300;
   color: #464646;
 }
-.catalog-pagination-list{
+
+.catalog-pagination-list {
   background-color: rgba(0, 0, 0, 0.08);
 }
-.catalog-pagination-link{
+
+.catalog-pagination-link {
   font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 3.2px;
   color: rgba(0, 0, 0, 0.3);
 }
+
 .catalog-pagination-link:hover,
-.catalog-pagination-link:focus{
+.catalog-pagination-link:focus {
   color: rgba(0, 0, 0, 0.6);
 }
-.catalog-pagination-link:active{
+
+.catalog-pagination-link:active {
   color: rgba(0, 0, 0, 1);
 }
-.current .catalog-pagination-link{
+
+.current .catalog-pagination-link {
   color: rgba(0, 0, 0, 1);
 }
-.catalog-pagination-link-direction{
+
+.catalog-pagination-link-direction {
   font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -491,11 +570,13 @@ a {
   color: rgba(0, 0, 0, 1);
   /* background-color: rgba(0, 0, 0, 0.08); */
 }
+
 .catalog-pagination-link-direction:hover,
-.catalog-pagination-link-direction:focus{
+.catalog-pagination-link-direction:focus {
   background-color: rgba(0, 0, 0, 0.08);
 }
-.catalog-pagination-link-direction:active{
+
+.catalog-pagination-link-direction:active {
   background-color: rgba(0, 0, 0, 0.08);
   color: rgba(0, 0, 0, 0.3);
 }
