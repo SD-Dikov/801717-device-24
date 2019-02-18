@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'gilroylight';
+    src: url("../fonts/10177-webfont.woff2") format('woff2'),
+         url("../fonts/10177-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url("../fonts/10871-webfont.woff2") format('woff2'),
+         url("../fonts/10871-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  margin: 0;
+
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #464646;
+
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.main-navigation {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+
+  background-color: #ffffff;
+  /* background-image: linear-gradient(to bottom, #ffffff 11.8%, rgba(240,197,46,0.5) 88.2%); */
+}
+.header-user-menu,
+.header-site-menu,
+.catalog-navigation{
+  list-style: none;
+}
+.main-navigation a{
+  color: #000000;
+}
+.main-navigation a:hover,
+.main-navigation a:focus{
+  opacity: 0.6;
+}
+.main-navigation a:active{
+  opacity: 0.3;
+}
+.header-site-menu {
+  font-family: "gilroyextrabold";
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 3.6px;
+  font-weight: 400;
+
+}
+/* .header-user-menu a,
+.header-site-menu a,
+.catalog-navigation a{
+  color: #000000;
+}
+.header-user-menu a:hover,
+.header-site-menu a:hover,
+.catalog-navigation a:hover,
+.header-user-menu a:focus,
+.header-site-menu a:focus,
+.catalog-navigation a:focus{
+  opacity: 0.6;
+}
+.header-user-menu a:active,
+.header-site-menu a:active,
+.catalog-navigation a:active{
+  opacity: 0.3;
+} */

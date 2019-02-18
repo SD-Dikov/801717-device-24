@@ -276,7 +276,7 @@ a {
   color: #ffffff;
 }
 .main-footer-logo:hover,
-.main-footer-logo:focus
+.main-footer-logo:focus,
 .main-footer-site-menu-link:hover,
 .main-footer-site-menu-link:focus{
   opacity: 0.6;
