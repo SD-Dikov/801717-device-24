@@ -1,7 +1,21 @@
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url("../fonts/10177-webfont.woff2") format('woff2'),
+         url("../fonts/10177-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url("../fonts/10871-webfont.woff2") format('woff2'),
+         url("../fonts/10871-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -46,7 +60,7 @@ button {
 
 .main-header-site-search,
 .main-header-user-menu-link {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -64,7 +78,7 @@ button {
 }
 
 .main-header-catalog-navigation-link {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 36px;
   font-weight: 300;
@@ -146,7 +160,7 @@ button {
 }
 
 .promo-item-text {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -163,7 +177,7 @@ button {
 }
 
 .promo-item-characteristics-name {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 300;
@@ -251,7 +265,7 @@ button {
 }
 
 .services-article-text {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -287,7 +301,7 @@ button {
 .main-info-text-about,
 .main-info-text-delivery,
 .main-contacts-text {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -306,7 +320,7 @@ button {
 /* FOOTER */
 .main-footer {
   background-color: #464646;
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   background-color: #464646;
   font-size: 15px;
   line-height: 30px;
@@ -350,7 +364,7 @@ button {
 
 .main-footer-user-menu-link {
   background-color: #464646;
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -383,7 +397,7 @@ button {
 }
 
 .breadcrumbs-link {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
@@ -400,7 +414,7 @@ button {
 }
 
 .current .breadcrumbs-link {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
@@ -449,7 +463,7 @@ button {
 }
 
 .filters-colors-text {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 40px;
   font-weight: 300;
@@ -457,7 +471,7 @@ button {
 }
 
 .filters-bluetooth-text {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 40px;
   font-weight: 300;
@@ -483,7 +497,7 @@ button {
 }
 
 .sorting-link {
-  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
