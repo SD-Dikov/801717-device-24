@@ -12,7 +12,7 @@
 <body>
   <div class="container">
     <header class="main-header">
-      <div class="main-header-column">
+      <div class="main-header-column-left">
         <a class="main-header-logo">
           <img src="img/main-header-logo.svg" alt="Логотип сайта Девайс" width="163" height="35">
         </a>
@@ -44,13 +44,16 @@
       </div>
       <nav class="main-navigation">
         <ul class="main-header-user-menu">
-          <li class="main-header-user-menu-item">
+          <li class="main-header-user-menu-item main-header-user-menu-item-checkin">
             <a href="#" class="main-header-user-menu-link">Войти</a>
           </li>
-          <li class="main-header-user-menu-item">
+          <!-- <li class="main-header-user-menu-item main-header-user-menu-item-compare">
+            <a href="#" class="main-header-user-menu-link"><span class="visually-hidden">Выйти</span></a>
+          </li> -->
+          <li class="main-header-user-menu-item main-header-user-menu-item-compare">
             <a href="#" class="main-header-user-menu-link">Сравнить</a>
           </li>
-          <li class="main-header-user-menu-item">
+          <li class="main-header-user-menu-item main-header-user-menu-item-basket">
             <a href="#" class="main-header-user-menu-link">Корзина</a>
           </li>
         </ul>
@@ -70,15 +73,16 @@
   </div>
   <main>
     <h1 class="visually-hidden">DEVICE</h1>
-    <section class="main-promo container">
+    <div class="container">
+    <section class="main-promo">
       <h2 class="visually-hidden">Промо</h2>
       <ul class="promo-item-list">
         <li class="promo-item promo-item-1">
-          <div class="promo-column-right">
+          <div class="promo-column-left">
             <img class="promo-item-image" src="img/slider-1-png.png" alt="Селфи палка" width="384" height="486">
           </div>
-          <div class="promo-column-left">
-            <h3 class="promo-item-title">Делай селфи, как Бен Стиллер!</h3>
+          <div class="promo-column-right">
+            <h3 class="promo-item-title">Делай селфи,<br> как Бен Стиллер!</h3>
             <p class="promo-item-text">
               Самая длинная палка для селфи доступна в нашем магазине.
               Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
@@ -155,6 +159,7 @@
         <button type="button" class="promo-btn"><span class="visually-hidden">3</span></button>
       </p>
     </section>
+    </div>
     <section class="main-catalog container">
       <h2 class="visually-hidden">Каталог</h2>
       <ul class="main-catalog-list">
@@ -162,7 +167,7 @@
           <a href="vr-catalog" class="main-catalog-item-link">Виртуальная реальность</a>
         </li>
         <li class="main-catalog-item main-catalog-selfie">
-          <a href="selfie-catalog" class="main-catalog-item-link">Моноподы для селфи</a>
+          <a href="selfie-catalog" class="main-catalog-item-link">Моноподы<br> для селфи</a>
         </li>
         <li class="main-catalog-item main-catalog-cameras">
           <a href="cameras-catalog" class="main-catalog-item-link">Экшн-камеры</a>
@@ -183,8 +188,8 @@
       <div class="container">
         <div class="services-wrapper">
           <ul class="services-item-list">
-            <li class="services-item current">
-              <button type="button" class="services-button">Доставка</button>
+            <li class="services-item">
+              <button type="button" class="services-button current">Доставка</button>
             </li>
             <li class="services-item">
               <button type="button" class="services-button">Гарантия</button>
