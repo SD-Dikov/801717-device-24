@@ -20,41 +20,42 @@
           <input class="main-header-site-search-input" type="search" name="search" placeholder="Поиск по сайту">
           <button type="submit" name="search-btn" class="main-header-site-search-btn">Найти</button>
         </form>
-        <a href="catalog" class="main-header-navigation-catalog-btn">Каталог товаров</a>
-        <ul class="main-header-catalog-navigation">
-          <li class="main-header-catalog-navigation-item">
-            <a href="vr-catalog" class="main-header-catalog-navigation-link">Виртуальная реальность</a>
-          </li>
-          <li class="main-header-catalog-navigation-item">
-            <a href="selfie-catalog" class="main-header-catalog-navigation-link">Моноподы для селфи</a>
-          </li>
-          <li class="main-header-catalog-navigation-item">
-            <a href="cameras-catalog" class="main-header-catalog-navigation-link">Экшн-камеры</a>
-          </li>
-          <li class="main-header-catalog-navigation-item">
-            <a href="menu-catalog" class="main-header-catalog-navigation-link">Фитнес-браслеты</a>
-          </li>
-          <li class="main-header-catalog-navigation-item">
-            <a href="watch-catalog" class="main-header-catalog-navigation-link">Умные часы</a>
-          </li>
-          <li class="main-header-catalog-navigation-item">
-            <a href="copters-catalog" class="main-header-catalog-navigation-link">Квадрокоптеры</a>
-          </li>
-        </ul>
+        <div class="main-header-catalog">
+          <a href="catalog" class="main-header-navigation-catalog-btn">Каталог товаров</a>
+          <div class="main-header-catalog-navigation-wrapper">
+            <ul class="main-header-catalog-navigation">
+              <li class="main-header-catalog-navigation-item">
+                <a href="vr-catalog" class="main-header-catalog-navigation-link">Виртуальная реальность</a>
+              </li>
+              <li class="main-header-catalog-navigation-item">
+                <a href="selfie-catalog" class="main-header-catalog-navigation-link">Фитнес-браслеты</a>
+              </li>
+              <li class="main-header-catalog-navigation-item">
+                <a href="cameras-catalog" class="main-header-catalog-navigation-link">Квадрокоптеры</a>
+              </li>
+              <li class="main-header-catalog-navigation-item">
+                <a href="menu-catalog" class="main-header-catalog-navigation-link">Моноподы для селфи</a>
+              </li>
+              <li class="main-header-catalog-navigation-item">
+                <a href="watch-catalog" class="main-header-catalog-navigation-link">Умные часы</a>
+              </li>
+              <li class="main-header-catalog-navigation-item">
+                <a href="copters-catalog" class="main-header-catalog-navigation-link">Экшн-камеры</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <nav class="main-navigation">
         <ul class="main-header-user-menu">
           <li class="main-header-user-menu-item main-header-user-menu-item-checkin">
-            <a href="#" class="main-header-user-menu-link">Войти</a>
+            <a href="#" class="main-header-user-menu-link main-header-user-menu-link-checkin">Войти</a>
           </li>
-          <!-- <li class="main-header-user-menu-item main-header-user-menu-item-compare">
-            <a href="#" class="main-header-user-menu-link"><span class="visually-hidden">Выйти</span></a>
-          </li> -->
           <li class="main-header-user-menu-item main-header-user-menu-item-compare">
-            <a href="#" class="main-header-user-menu-link">Сравнить</a>
+            <a href="#" class="main-header-user-menu-link main-header-user-menu-link-compare">Сравнить</a>
           </li>
           <li class="main-header-user-menu-item main-header-user-menu-item-basket">
-            <a href="#" class="main-header-user-menu-link">Корзина</a>
+            <a href="#" class="main-header-user-menu-link main-header-user-menu-link-basket">Корзина</a>
           </li>
         </ul>
         <ul class="main-header-site-menu">
@@ -107,10 +108,10 @@
             </div>
           </li>
           <li class="promo-item promo-item-2">
-            <div class="promo-column-right">
+            <div class="promo-column-left">
               <img class="promo-item-image" src="img/slider-2-png.png" alt="Фитнес-браслет" width="345" height="485">
             </div>
-            <div class="promo-column-left">
+            <div class="promo-column-right">
               <h3 class="promo-item-title">Худеем правильно!</h3>
               <p class="promo-item-text">
                 Мотивирующие фитнес-браслеты помогут найти в себе силы
@@ -121,19 +122,19 @@
               </p>
               <table class="promo-item-characteristics">
                 <tr class="promo-item-characteristics-name">
-                  <td>Без подзарядки</td>
+                  <td>48 часов</td>
                 </tr>
                 <tr class="promo-item-characteristics-value">
-                  <td>48 часов</td>
+                  <td>Без подзарядки</td>
                 </tr>
               </table>
             </div>
           </li>
           <li class="promo-item promo-item-3">
-            <div class="promo-column-right">
+            <div class="promo-column-left">
               <img class="promo-item-image" src="img/slider-3-png.png" alt="Квадрокоптер" width="526" height="334">
             </div>
-            <div class="promo-column-left">
+            <div class="promo-column-right">
               <h3 class="promo-item-title">Порхает как бабочка, жалит как пчела!</h3>
               <p class="promo-item-text">
                 Этот обычный, на первый взгляд, квадрокоптер оснащен
@@ -144,12 +145,12 @@
               </p>
               <table class="promo-item-characteristics">
                 <tr class="promo-item-characteristics-name">
-                  <td>Дальность полета</td>
-                  <td>Радиус поражения</td>
-                </tr>
-                <tr class="promo-item-characteristics-value">
                   <td>800 м</td>
                   <td>50 м</td>
+                </tr>
+                <tr class="promo-item-characteristics-value">
+                  <td>Дальность полета</td>
+                  <td>Радиус поражения</td>
                 </tr>
               </table>
             </div>
@@ -166,22 +167,22 @@
       <h2 class="visually-hidden">Каталог</h2>
       <ul class="main-catalog-list">
         <li class="main-catalog-item main-catalog-virtreal">
-          <a href="vr-catalog" class="main-catalog-item-link">Виртуальная реальность</a>
+          <a href="vr-catalog" class="main-catalog-item-link main-catalog-item-link-virtreal">Виртуальная реальность</a>
         </li>
         <li class="main-catalog-item main-catalog-selfie">
-          <a href="selfie-catalog" class="main-catalog-item-link">Моноподы<br> для селфи</a>
+          <a href="selfie-catalog" class="main-catalog-item-link main-catalog-item-link-selfie">Моноподы<br> для селфи</a>
         </li>
         <li class="main-catalog-item main-catalog-cameras">
-          <a href="cameras-catalog" class="main-catalog-item-link">Экшн-камеры</a>
+          <a href="cameras-catalog" class="main-catalog-item-link main-catalog-item-link-cameras">Экшн-камеры</a>
         </li>
         <li class="main-catalog-item main-catalog-fitnes">
-          <a href="fitnes-catalog" class="main-catalog-item-link">Фитнес-браслеты</a>
+          <a href="fitnes-catalog" class="main-catalog-item-link main-catalog-item-link-fitnes">Фитнес-браслеты</a>
         </li>
         <li class="main-catalog-item main-catalog-watch">
-          <a href="watch-catalog" class="main-catalog-item-link">Умные часы</a>
+          <a href="watch-catalog" class="main-catalog-item-link main-catalog-item-link-watch">Умные часы</a>
         </li>
         <li class="main-catalog-item main-catalog-copters">
-          <a href="copters-catalog" class="main-catalog-item-link">Квадрокоптеры</a>
+          <a href="copters-catalog" class="main-catalog-item-link main-catalog-item-link-copters">Квадрокоптеры</a>
         </li>
       </ul>
     </section>
@@ -201,7 +202,7 @@
             </li>
           </ul>
           <ul class="services-article-list">
-            <li class="services-article current">
+            <li class="services-article services-article-delivery  current">
               <div class="services-article-title-box">
                 <h3 class="services-article-title">Доставка</h3>
               </div>
@@ -210,18 +211,22 @@
                 Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.
               </p>
             </li>
-            <li class="services-article">
-              <h3 class="services-article-title">Гарантия</h3>
+            <li class="services-article services-article-warranty">
+              <div class="services-article-title-box">
+                <h3 class="services-article-title">Гарантия</h3>
+              </div>
               <p class="services-article-text">
-                Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте,
-                мы выдадим вам новый.
+                Если из-за возгорания купленного у нас товара у вас сгорит<br> дом — не переживайте,
+                мы выдадим вам новый.<br>
                 Товар, не дом, конечно же.
               </p>
             </li>
-            <li class="services-article">
-              <h3 class="services-article-title">Кредит</h3>
+            <li class="services-article services-article-credit">
+              <div class="services-article-title-box">
+                <h3 class="services-article-title">Кредит</h3>
+              </div>
               <p class="services-article-text">
-                Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
+                Залезть в долговую яму стало проще! Кредитные<br> консультанты подберут для вас наиболее выгодные<br>
                 условия кредита. Выгодные для нашего банка, разумеется.
               </p>
             </li>
@@ -296,18 +301,18 @@
             <img src="img/main-footer-logo.png" alt="Логотип сайта Девайс" width="163" height="35">
           </a>
           <ul class="main-footer-user-menu">
-            <li class="main-footer-user-menu-item">
-              <a href="#" class="main-footer-user-menu-link main-footer-user-menu-item-compare-checkin">Войти</a>
+            <li class="main-footer-user-menu-item main-footer-user-menu-item-checkin">
+              <a href="#" class="main-footer-user-menu-link main-footer-user-menu-link-checkin">Войти</a>
             </li>
             <li class="main-footer-user-menu-item main-footer-user-menu-item-compare">
-              <a href="#" class="main-footer-user-menu-link">Сравнить</a>
+              <a href="#" class="main-footer-user-menu-link main-footer-user-menu-link-compare">Сравнить</a>
             </li>
-            <li class="main-footer-user-menu-item">
-              <a href="#" class="main-footer-user-menu-link main-footer-user-menu-item-basket">Корзина</a>
+            <li class="main-footer-user-menu-item main-footer-user-menu-item-basket">
+              <a href="#" class="main-footer-user-menu-link main-footer-user-menu-link-basket">Корзина</a>
             </li>
           </ul>
         </div>
-        <div class="main-footer-line">
+        <div class="main-footer-line main-footer-line-2">
           <p class="main-footer-address">
             г. Москва, ул. Строителей, 15
           </p>
@@ -326,11 +331,11 @@
             Тел.: +7 (495) 495-95-95
           </p>
         </div>
-        <div class="main-footer-line">
+        <div class="main-footer-line main-footer-line-3">
           <ul class="main-footer-social-list">
             <li class="social-item"><a class="main-footer-social-button social-faceb" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
             <li class="social-item"><a class="main-footer-social-button social-insta" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
-            <li class="social-item"><a class="main-footer-social-button social-tweet" href="#"><span class="visually-hidden">Твиттер</span></a></li>
+            <li class="social-item"><a class="main-footer-social-button social-twitter" href="#"><span class="visually-hidden">Твиттер</span></a></li>
           </ul>
           <p class="main-footer-copyright">
             <a class="mainfooter-copyright-button" href="https://htmlacademy.ru"><span class="visually-hidden">HTML Academy</span></a>
