@@ -13,34 +13,40 @@
   <div class="container">
     <header class="main-header">
       <div class="main-header-column-left">
-        <a class="main-header-logo">
+        <a class="main-header-logo main-header-logo-index">
           <img src="img/main-header-logo.svg" alt="Логотип сайта Девайс" width="163" height="35">
         </a>
-        <form class="main-header-site-search" action="index.html" method="set">
-          <input class="main-header-site-search-input" type="search" name="search" placeholder="Поиск по сайту">
+        <form class="main-header-site-search" action="index.html" method="get">
+          <div class="main-header-site-search-input-box">
+            <input class="main-header-site-search-input" type="search" name="search" placeholder="Поиск по сайту">
           <button type="submit" name="search-btn" class="main-header-site-search-btn">Найти</button>
+        </div>
         </form>
         <div class="main-header-catalog">
           <a href="catalog" class="main-header-navigation-catalog-btn">Каталог товаров</a>
           <div class="main-header-catalog-navigation-wrapper">
-            <ul class="main-header-catalog-navigation">
+            <ul class="main-header-catalog-navigation main-header-catalog-navigation-1">
               <li class="main-header-catalog-navigation-item">
                 <a href="vr-catalog" class="main-header-catalog-navigation-link">Виртуальная реальность</a>
               </li>
               <li class="main-header-catalog-navigation-item">
-                <a href="selfie-catalog" class="main-header-catalog-navigation-link">Фитнес-браслеты</a>
+                <a href="selfie-catalog" class="main-header-catalog-navigation-link">Моноподы для селфи</a>
               </li>
               <li class="main-header-catalog-navigation-item">
-                <a href="cameras-catalog" class="main-header-catalog-navigation-link">Квадрокоптеры</a>
+                <a href="cameras-catalog" class="main-header-catalog-navigation-link">Экшн-камеры</a>
               </li>
+            </ul>
+            <ul class="main-header-catalog-navigation main-header-catalog-navigation-2">
               <li class="main-header-catalog-navigation-item">
-                <a href="menu-catalog" class="main-header-catalog-navigation-link">Моноподы для селфи</a>
+                <a href="menu-catalog" class="main-header-catalog-navigation-link">Фитнес-браслеты</a>
               </li>
               <li class="main-header-catalog-navigation-item">
                 <a href="watch-catalog" class="main-header-catalog-navigation-link">Умные часы</a>
               </li>
+            </ul>
+            <ul class="main-header-catalog-navigation main-header-catalog-navigation-3">
               <li class="main-header-catalog-navigation-item">
-                <a href="copters-catalog" class="main-header-catalog-navigation-link">Экшн-камеры</a>
+                <a href="copters-catalog" class="main-header-catalog-navigation-link">Квадрокоптеры</a>
               </li>
             </ul>
           </div>
