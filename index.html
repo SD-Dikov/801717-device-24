@@ -19,8 +19,8 @@
         <form class="main-header-site-search" action="index.html" method="get">
           <div class="main-header-site-search-input-box">
             <input class="main-header-site-search-input" type="search" name="search" placeholder="Поиск по сайту">
-          <button type="submit" name="search-btn" class="main-header-site-search-btn">Найти</button>
-        </div>
+            <button type="submit" name="search-btn" class="main-header-site-search-btn">Найти</button>
+          </div>
         </form>
         <div class="main-header-catalog">
           <a href="catalog" class="main-header-navigation-catalog-btn">Каталог товаров</a>
@@ -351,20 +351,28 @@
     </div>
   </footer>
   <section class="map-popup">
-    <img class="map-popup-img" src="img/map-big.jpg" width="960px" height="559px" alt="Улица строителей дом 15 на карте">
-    <button type="button" class="popup-close-btn"><span class="visually-hidden">Закрыть</span></button>
+    <img class="map-popup-img" src="img/map-popup.png" width="999" height="598" alt="Улица строителей дом 15 на карте">
+    <button type="button" class="popup-close-btn popup-close-btn-map"><span class="visually-hidden">Закрыть</span></button>
   </section>
   <section class="feedback-popup">
     <form class="feedback-form" action="index.html" method="post">
-      <label for="feedback-form-name" class="fullname-label">Ваше имя:</label>
-      <input type="text" name="fullname" id="feedback-form-name" placeholder="Имя Фамилия" class="fullname-input" required>
-      <label for="feedback-form-email">Ваш e-mail:</label>
-      <input type="email" name="email" id="feedback-form-email" placeholder="email@example.com" class="email-input" required>
-      <label for="feedback-form-textarea" class="email-label">Текст письма:</label>
-      <textarea name="text" rows="8" cols="80" id="feedback-form-textarea" placeholder="В свободной форме" class="feedback-textarea"></textarea>
-      <button type="submit" class="main-btn">Отправить</button>
+      <div class="feedback-form-fullname-box">
+        <label for="feedback-form-name" class="fullname-label">Ваше имя:</label>
+        <input type="text" name="fullname" id="feedback-form-name" placeholder="Имя Фамилия" class="fullname-input" required>
+      </div>
+      <div class="feedback-form-email-box">
+        <label for="feedback-form-email" class="email-label">Ваш e-mail:</label>
+        <input type="email" name="email" id="feedback-form-email" placeholder="email@example.com" class="email-input" required>
+      </div>
+      <div class="feedback-form-textarea-box">
+        <label for="feedback-form-textarea" class="email-label">Текст письма:</label>
+        <textarea name="text" rows="8" cols="80" id="feedback-form-textarea" placeholder="В свободной форме" class="feedback-textarea"></textarea>
+      </div>
+      <div class="feedback-form-btn-box">
+        <button type="submit" class="main-btn feedback-form-btn">Отправить</button>
+      </div>
     </form>
-    <button type="button" class="popup-close-btn"><span class="visually-hidden">Закрыть</span></button>
+    <button type="button" class="popup-close-btn popup-close-btn-feedback"><span class="visually-hidden">Закрыть</span></button>
   </section>
 </body>
 

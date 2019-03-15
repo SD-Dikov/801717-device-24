@@ -101,7 +101,21 @@
             <div class="filters-fieldset-box">
               <fieldset class="filters-fieldset filters-price">
                 <legend class="filters-fieldset-title filters-price-title">Стоимость</legend>
-                <!-- сложный фильтр -->
+                <div class="filters-price-range-filter">
+          <div class="filters-price-range-controls">
+            <div class="filters-price-scale">
+              <div class="filters-price-bar"></div>
+            </div>
+            <div class="filters-price-toggle filters-price-toggle-min"></div>
+            <div class="filters-price-toggle filters-price-toggle-max"></div>
+          </div>
+          <div class="filters-price-price-controls">
+            <input name="min-price" type="text" value="0" id="min-price">
+            <label for="min-price" class="filters-price-min-price">от </label>
+            <input name="max-price" type="text" value="15000" id="max-price">         
+            <label for="" class="filters-price-max-price">до </label>
+          </div>
+        </div>
               </fieldset>
             </div>
             <div class="filters-fieldset-box">
