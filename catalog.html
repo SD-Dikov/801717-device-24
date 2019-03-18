@@ -25,24 +25,28 @@
         <div class="main-header-catalog">
           <a href="catalog" class="main-header-navigation-catalog-btn">Каталог товаров</a>
           <div class="main-header-catalog-navigation-wrapper">
-            <ul class="main-header-catalog-navigation">
+            <ul class="main-header-catalog-navigation main-header-catalog-navigation-1">
               <li class="main-header-catalog-navigation-item">
                 <a href="vr-catalog" class="main-header-catalog-navigation-link">Виртуальная реальность</a>
               </li>
               <li class="main-header-catalog-navigation-item">
-                <a href="selfie-catalog" class="main-header-catalog-navigation-link">Фитнес-браслеты</a>
+                <a href="selfie-catalog" class="main-header-catalog-navigation-link">Моноподы для селфи</a>
               </li>
               <li class="main-header-catalog-navigation-item">
-                <a href="cameras-catalog" class="main-header-catalog-navigation-link">Квадрокоптеры</a>
+                <a href="cameras-catalog" class="main-header-catalog-navigation-link">Экшн-камеры</a>
               </li>
+            </ul>
+            <ul class="main-header-catalog-navigation main-header-catalog-navigation-2">
               <li class="main-header-catalog-navigation-item">
-                <a href="menu-catalog" class="main-header-catalog-navigation-link">Моноподы для селфи</a>
+                <a href="menu-catalog" class="main-header-catalog-navigation-link">Фитнес-браслеты</a>
               </li>
               <li class="main-header-catalog-navigation-item">
                 <a href="watch-catalog" class="main-header-catalog-navigation-link">Умные часы</a>
               </li>
+            </ul>
+            <ul class="main-header-catalog-navigation main-header-catalog-navigation-3">
               <li class="main-header-catalog-navigation-item">
-                <a href="copters-catalog" class="main-header-catalog-navigation-link">Экшн-камеры</a>
+                <a href="copters-catalog" class="main-header-catalog-navigation-link">Квадрокоптеры</a>
               </li>
             </ul>
           </div>
@@ -78,9 +82,8 @@
     </header>
   </div>
   <main>
-    <div class="container">
-      <div class="catalog-title-wrapper">
-        <div class="catalog-title-box">
+    <div class="container"><div class="catalog-title-wrapper">
+  <div class="catalog-title-box">
           <h1 class="catalog-title">Моноподы для селфи</h1>
         </div>
         <ul class="breadcrumbs-list">
@@ -110,10 +113,10 @@
             <div class="filters-price-toggle filters-price-toggle-max"></div>
           </div>
           <div class="filters-price-price-controls">
-            <input name="min-price" type="text" value="0" id="min-price">
-            <label for="min-price" class="filters-price-min-price">от </label>
-            <input name="max-price" type="text" value="15000" id="max-price">         
-            <label for="" class="filters-price-max-price">до </label>
+            <label for="min-price" class="filters-price-label filters-price-min-price">от </label>
+            <input class="filter-price-input filter-price-input-min-price" name="min-price" type="text" value="0" id="min-price">
+            <label for="max-price" class="filters-price-label filters-price-max-price">до </label>
+            <input class="filter-price-input filter-price-input-max-price" name="max-price" type="text" value="5000" id="max-price">
           </div>
         </div>
               </fieldset>
@@ -196,52 +199,52 @@
         <div class="catalog-items-list-box">
           <ul class="catalog-items-list">
             <li class="catalog-items-item">
-              <p class="catalog-items-item-image">
-                <img src="img/amateur-selfie-stick.jpg" alt="Любительская селфи-палка" width="360px" height="380px">
+              <div class="catalog-items-item-image">
+                <img src="img/amateur-selfie-stick.jpg" alt="Любительская селфи-палка" width="360" height="380">
                 <div class="catalog-items-item-btn-box">
                   <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
                   <button type="button" class="btn-comparison">Добавить к сравнению</button>
                 </div>
-              </p>
+              </div>
               <p class="catalog-items-item-text">
                 <a class="catalog-items-item-link" href="/catalog-items-item.html">Любительская селфи-палка</a>
                 <span class="catalog-items-item-price">500 руб.</span>
               </p>
             </li>
             <li class="catalog-items-item">
-              <p class="catalog-items-item-image">
-                <img src="img/professional-selfie-stick.jpg" alt="Профессиональная селфи-палка" width="360px" height="380px">
+              <div class="catalog-items-item-image">
+                <img src="img/professional-selfie-stick.jpg" alt="Профессиональная селфи-палка" width="360" height="380">
                 <div class="catalog-items-item-btn-box">
                   <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
                   <button type="button" class="btn-comparison">Добавить к сравнению</button>
                 </div>
-              </p>
+              </div>
               <p class="catalog-items-item-text">
                 <a class="catalog-items-item-link" href="/catalog-items-item.html">Профессиональная<br> селфи-палка</a>
                 <span class="catalog-items-item-price">1 500 руб.</span>
               </p>
             </li>
             <li class="catalog-items-item">
-              <p class="catalog-items-item-image">
-                <img src="img/water-selfie-stick.jpg" alt="Непотопляемая селфи-палка" width="360px" height="380px">
+              <div class="catalog-items-item-image">
+                <img src="img/water-selfie-stick.jpg" alt="Непотопляемая селфи-палка" width="360" height="380">
                 <div class="catalog-items-item-btn-box">
                   <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
                   <button type="button" class="btn-comparison">Добавить к сравнению</button>
                 </div>
-              </p>
+              </div>
               <p class="catalog-items-item-text">
                 <a class="catalog-items-item-link" href="/catalog-items-item.html">Непотопляемая селфи-палка</a>
                 <span class="catalog-items-item-price">2 500 руб.</span>
               </p>
             </li>
             <li class="catalog-items-item items-new">
-              <p class="catalog-items-item-image">
-                <img src="img/follow-selfie-stick.jpg" alt="Селфи-палка «Следуй за мной»" width="360px" height="380px">
+              <div class="catalog-items-item-image">
+                <img src="img/follow-selfie-stick.jpg" alt="Селфи-палка «Следуй за мной»" width="360" height="380">
                 <div class="catalog-items-item-btn-box">
                   <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
                   <button type="button" class="btn-comparison">Добавить к сравнению</button>
                 </div>
-              </p>
+              </div>
               <p class="catalog-items-item-text">
                 <a class="catalog-items-item-link" href="/catalog-items-item.html">Селфи-палка «Следуй за<br> мной»</a>
                 <span class="catalog-items-item-price">4 900 руб.</span>

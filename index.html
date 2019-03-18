@@ -84,7 +84,7 @@
       <section class="main-promo">
         <h2 class="visually-hidden">Промо</h2>
         <ul class="promo-item-list">
-          <li class="promo-item promo-item-1">
+          <li class="promo-item promo-item-1  current">
             <div class="promo-column-left">
               <img class="promo-item-image" src="img/slider-1-png.png" alt="Селфи палка" width="384" height="486">
             </div>
@@ -176,7 +176,7 @@
           <a href="vr-catalog" class="main-catalog-item-link main-catalog-item-link-virtreal">Виртуальная реальность</a>
         </li>
         <li class="main-catalog-item main-catalog-selfie">
-          <a href="selfie-catalog" class="main-catalog-item-link main-catalog-item-link-selfie">Моноподы<br> для селфи</a>
+          <a href="selfie-catalog" class="main-catalog-item-link main-catalog-item-link-selfie">Моноподы для селфи</a>
         </li>
         <li class="main-catalog-item main-catalog-cameras">
           <a href="cameras-catalog" class="main-catalog-item-link main-catalog-item-link-cameras">Экшн-камеры</a>
@@ -213,8 +213,8 @@
                 <h3 class="services-article-title">Доставка</h3>
               </div>
               <p class="services-article-text">
-                Мы с удовольствием доставим ваш товар прямо к вашему<br> подъезду совершенно бесплатно!
-                Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.
+                Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
+                Ведь мы неплохо заработаем, поднимая его на ваш этаж.
               </p>
             </li>
             <li class="services-article services-article-warranty">
@@ -222,7 +222,7 @@
                 <h3 class="services-article-title">Гарантия</h3>
               </div>
               <p class="services-article-text">
-                Если из-за возгорания купленного у нас товара у вас сгорит<br> дом — не переживайте,
+                Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте,
                 мы выдадим вам новый.<br>
                 Товар, не дом, конечно же.
               </p>
@@ -232,7 +232,7 @@
                 <h3 class="services-article-title">Кредит</h3>
               </div>
               <p class="services-article-text">
-                Залезть в долговую яму стало проще! Кредитные<br> консультанты подберут для вас наиболее выгодные<br>
+                Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
                 условия кредита. Выгодные для нашего банка, разумеется.
               </p>
             </li>
@@ -270,11 +270,11 @@
         <div class="main-info-text">
           <h2 class="main-info-title">О нас</h2>
           <p class="main-info-text-about">
-            Огромный выбор гаджетов не оставит равнодушным гика,<br>
+            Огромный выбор гаджетов не оставит равнодушным гика,
             который есть в каждом из нас.
           </p>
           <p class="main-info-text-delivery">
-            Мы можем доставить ваш товар в самые отдаленные точки<br> России! DEVICE работает со многими транспортными компаниями:
+            Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:
           </p>
           <ul class="main-info-text-list">
             <li class="main-info-text-list-item">Деловые Линии</li>
@@ -291,7 +291,7 @@
           </p>
           <div class="main-map-button-box">
             <a href="map" class="main-map-button">
-              <img src="img/map-jpg.jpg" width="560px" height="222px" alt="Улица строителей дом 15 на карте">
+              <img src="img/map-jpg.jpg" width="560" height="222" alt="Улица строителей дом 15 на карте">
             </a>
           </div>
           <a href="feedback" class="main-info-contacts-button main-btn">Напишите нам</a>
@@ -351,10 +351,12 @@
     </div>
   </footer>
   <section class="map-popup">
-    <img class="map-popup-img" src="img/map-popup.png" width="999" height="598" alt="Улица строителей дом 15 на карте">
+    <h2 class="visually-hidden">Карта</h2>
+    <img class="map-popup-img" src="img/map-popup.png" width="960" height="559" alt="Улица строителей дом 15 на карте">
     <button type="button" class="popup-close-btn popup-close-btn-map"><span class="visually-hidden">Закрыть</span></button>
   </section>
   <section class="feedback-popup">
+    <h2 class="visually-hidden">Обратная связь</h2>
     <form class="feedback-form" action="index.html" method="post">
       <div class="feedback-form-fullname-box">
         <label for="feedback-form-name" class="fullname-label">Ваше имя:</label>
@@ -365,8 +367,8 @@
         <input type="email" name="email" id="feedback-form-email" placeholder="email@example.com" class="email-input" required>
       </div>
       <div class="feedback-form-textarea-box">
-        <label for="feedback-form-textarea" class="email-label">Текст письма:</label>
-        <textarea name="text" rows="8" cols="80" id="feedback-form-textarea" placeholder="В свободной форме" class="feedback-textarea"></textarea>
+        <label for="feedback-form-textarea" class="textarea-label">Текст письма:</label>
+        <textarea name="text" rows="6" cols="80" id="feedback-form-textarea" placeholder="В свободной форме" class="feedback-textarea"></textarea>
       </div>
       <div class="feedback-form-btn-box">
         <button type="submit" class="main-btn feedback-form-btn">Отправить</button>
