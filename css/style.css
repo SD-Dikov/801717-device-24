@@ -575,7 +575,6 @@ button {
   color: #000000;
 }
 
-
 .promo-item-characteristics-value {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 13px;
@@ -1151,7 +1150,6 @@ button {
 .main-footer-user-menu {
   display: flex;
   justify-content: space-between;
-  width: 480px;
 }
 
 .main-footer-user-menu-item-login {
@@ -1167,14 +1165,15 @@ button {
   left: 2px;
   width: 15px;
   height: 13px;
-  background-image: url("../img/user_footer.png");
+  background-image: url("../img/user-footer.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .main-footer-user-menu-item-checkin {
   position: relative;
-  padding-left: 181px;
+  padding-left: 28px;
+  margin-left: auto;
   margin-right: 39px;
 }
 
@@ -1182,10 +1181,10 @@ button {
   content: "";
   position: absolute;
   top: 9px;
-  left: 155px;
+  left: 2px;
   width: 15px;
   height: 13px;
-  background-image: url("../img/user_footer.png");
+  background-image: url("../img/user-footer.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1208,7 +1207,7 @@ button {
   left: 5px;
   width: 15px;
   height: 13px;
-  background-image: url("../img/compare_footer.png");
+  background-image: url("../img/compare-footer.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1225,7 +1224,7 @@ button {
   left: 2px;
   width: 15px;
   height: 13px;
-  background-image: url("../img/cart_footer.png");
+  background-image: url("../img/cart-footer.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -2196,9 +2195,6 @@ button {
   background-color: #ffffff;
 }
 
-/* .email-input:invalid:required{
-   background-color: #edb5b5;
-} */
 .fullname-label {
   margin-bottom: 7px;
 }
