@@ -482,7 +482,7 @@ button {
   position: absolute;
   top: -25px;
   left: 929px;
-  font-family: Gilroy;
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 179px;
   font-weight: 800;
   letter-spacing: 1.8px;
@@ -494,7 +494,7 @@ button {
   position: absolute;
   top: -25px;
   left: 904px;
-  font-family: Gilroy;
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 179px;
   font-weight: 800;
   letter-spacing: 1.8px;
@@ -506,7 +506,7 @@ button {
   position: absolute;
   top: -25px;
   left: 903px;
-  font-family: Gilroy;
+  font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 179px;
   font-weight: 800;
   letter-spacing: 1.8px;
@@ -1973,7 +1973,7 @@ button {
   height: 60px;
   padding-top: 17px;
   padding-left: 13px;
-  font-family: Gilroy;
+  font-family: "Gilroy-Light", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 800;
@@ -2011,9 +2011,6 @@ button {
   padding-left: 14px;
   list-style: none;
 }
-
-.catalog-pagination-item-numbers {}
-
 .catalog-pagination-link {
   font-family: "Gilroy-ExtraBold", Arial, sans-serif;
   font-size: 16px;
