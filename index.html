@@ -6,7 +6,7 @@
   <title>HTML Academy: Девайс</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-min.css">
 </head>
 
 <body>
@@ -16,14 +16,14 @@
         <a class="main-header-logo main-header-logo-index">
           <img src="img/main-header-logo.svg" alt="Логотип сайта Девайс" width="163" height="35">
         </a>
-        <form class="main-header-site-search" action="index.html" method="get">
+        <form class="main-header-site-search" action="https://echo.htmlacademy.ru" method="post">
           <div class="main-header-site-search-input-box">
-            <input class="main-header-site-search-input" type="search" name="search" placeholder="Поиск по сайту">
-            <button type="submit" name="search-btn" class="main-header-site-search-btn">Найти</button>
+            <input class="main-header-site-search-input" type="text" name="search" placeholder="Поиск по сайту">
+            <button type="submit" class="main-header-site-search-btn">Найти</button>
           </div>
         </form>
         <div class="main-header-catalog">
-          <a href="catalog" class="main-header-navigation-catalog-btn">Каталог товаров</a>
+          <a href="catalog.html" class="main-header-navigation-catalog-btn">Каталог товаров</a>
           <div class="main-header-catalog-navigation-wrapper">
             <ul class="main-header-catalog-navigation main-header-catalog-navigation-1">
               <li class="main-header-catalog-navigation-item">
@@ -98,16 +98,16 @@
                 <a href="#" class="promo-item-button-link main-btn">Подробнее</a>
               </p>
               <table class="promo-item-characteristics">
-                  <tr class="promo-item-characteristics-name">
-                    <td class="promo-item-characteristics-cell promo-item-characteristics-cell-name">8,5 м</td>
-                    <td class="promo-item-characteristics-cell promo-item-characteristics-cell-name">5 кг</td>
-                    <td class="promo-item-characteristics-cell promo-item-characteristics-cell-name">Карбон</td>
-                  </tr>
-                  <tr class="promo-item-characteristics-value">
-                    <td class="promo-item-characteristics-cell promo-item-characteristics-cell-value">Длина палки</td>
-                    <td class="promo-item-characteristics-cell promo-item-characteristics-cell-value">Вес палки</td>
-                    <td class="promo-item-characteristics-cell promo-item-characteristics-cell-value">Материал</td>
-                  </tr>
+                <tr class="promo-item-characteristics-name">
+                  <td class="promo-item-characteristics-cell promo-item-characteristics-cell-name">8,5 м</td>
+                  <td class="promo-item-characteristics-cell promo-item-characteristics-cell-name">5 кг</td>
+                  <td class="promo-item-characteristics-cell promo-item-characteristics-cell-name">Карбон</td>
+                </tr>
+                <tr class="promo-item-characteristics-value">
+                  <td class="promo-item-characteristics-cell promo-item-characteristics-cell-value">Длина палки</td>
+                  <td class="promo-item-characteristics-cell promo-item-characteristics-cell-value">Вес палки</td>
+                  <td class="promo-item-characteristics-cell promo-item-characteristics-cell-value">Материал</td>
+                </tr>
               </table>
             </div>
           </li>
@@ -242,23 +242,23 @@
       <h2 class="visually-hidden">Бренды</h2>
       <ul class="main-brand-item-list">
         <li class="main-brand-item">
-          <a class="main-brand-link" href="#">
-            <img src="img/logo-dji.png" alt="Логотип Dji" width="260" height="100">
+          <a class="main-brand-link main-brand-link-dji" href="#">
+            <img src="img/logo-dji-mono.png" alt="Логотип Dji" width="260" height="100">
           </a>
         </li>
         <li class="main-brand-item">
-          <a class="main-brand-link" href="#">
-            <img src="img/logo-sp-gadgets.png" alt="Логотип Sp gadgets" width="260" height="100">
+          <a class="main-brand-link main-brand-link-sp-gadgets" href="#">
+            <img src="img/logo-sp-gadgets-mono.png" alt="Логотип Sp gadgets" width="260" height="100">
           </a>
         </li>
         <li class="main-brand-item">
-          <a class="main-brand-link" href="#">
-            <img src="img/logo-gopro.png" alt="Логотип GoPro" width="260" height="100">
+          <a class="main-brand-link main-brand-link-gopro" href="#">
+            <img src="img/logo-gopro-mono.png" alt="Логотип GoPro" width="260" height="100">
           </a>
         </li>
         <li class="main-brand-item">
-          <a class="main-brand-link" href="#">
-            <img src="img/logo-vive.png" alt="Логотип Vive" width="260" height="100">
+          <a class="main-brand-link main-brand-link-vive" href="#">
+            <img src="img/logo-vive-mono.png" alt="Логотип Vive" width="260" height="100">
           </a>
         </li>
       </ul>
@@ -337,32 +337,53 @@
         </div>
         <div class="main-footer-line main-footer-line-3">
           <ul class="main-footer-social-list">
-            <li class="social-item"><a class="main-footer-social-button social-faceb" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
-            <li class="social-item"><a class="main-footer-social-button social-insta" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
-            <li class="social-item"><a class="main-footer-social-button social-twitter" href="#"><span class="visually-hidden">Твиттер</span></a></li>
+            <li class="social-item">
+              <a class="main-footer-social-button social-faceb" href="#">
+                <span class="visually-hidden">Фейсбук</span>
+                <img src="img/fb.svg" alt="наш Фейсбук" width="32" height="32">
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="main-footer-social-button social-insta" href="#">
+                <span class="visually-hidden">Инстаграм</span>
+                <img src="img/instagram.svg" alt="наш Инстаграм" width="32" height="32">
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="main-footer-social-button social-twitter" href="#">
+                <span class="visually-hidden">Твиттер</span>
+                <img src="img/twitter.svg" alt="наш Твиттер" width="32" height="32">
+              </a>
+            </li>
           </ul>
-          <p class="main-footer-copyright">
-            <a class="mainfooter-copyright-button" href="https://htmlacademy.ru"><span class="visually-hidden">HTML Academy</span></a>
-          </p>
+          <div class="main-footer-copyright">
+            <a class="mainfooter-copyright-button" href="https://htmlacademy.ru">
+              <span class="visually-hidden">HTML Academy</span>
+              <img src="img/logo-html.svg" alt="лого HTML Academy" width="27" height="35">
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </footer>
   <section class="map-popup">
     <h2 class="visually-hidden">Карта</h2>
-    <img class="map-popup-img" src="img/map-popup.png" width="960" height="559" alt="Улица строителей дом 15 на карте">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1590.3808076039327!2d37.528803139013576!3d55.68658661269731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1553439044206"
+      width="960" height="559" allowfullscreen class="iframe-map"></iframe>
+    <img class="map-popup-img visually-hidden" src="img/map-popup.png" width="960" height="559" alt="Улица строителей дом 15 на карте">
     <button type="button" class="popup-close-btn popup-close-btn-map"><span class="visually-hidden">Закрыть</span></button>
   </section>
+  <div class="map-popup-close-box"></div>
   <section class="feedback-popup">
     <h2 class="visually-hidden">Обратная связь</h2>
-    <form class="feedback-form" action="#" method="post">
+    <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
       <div class="feedback-form-fullname-box">
         <label for="feedback-form-name" class="fullname-label">Ваше имя:</label>
-        <input type="text" name="fullname" id="feedback-form-name" placeholder="Имя Фамилия" class="fullname-input" required>
+        <input type="text" name="fullname" id="feedback-form-name" placeholder="Имя Фамилия" class="fullname-input">
       </div>
       <div class="feedback-form-email-box">
         <label for="feedback-form-email" class="email-label">Ваш e-mail:</label>
-        <input type="email" name="email" id="feedback-form-email" placeholder="email@example.com" class="email-input" required>
+        <input type="email" name="email" id="feedback-form-email" placeholder="email@example.com" class="email-input">
       </div>
       <div class="feedback-form-textarea-box">
         <label for="feedback-form-textarea" class="textarea-label">Текст письма:</label>
@@ -374,6 +395,8 @@
     </form>
     <button type="button" class="popup-close-btn popup-close-btn-feedback"><span class="visually-hidden">Закрыть</span></button>
   </section>
+  <div class="feedback-popup-close-box"></div>
+  <script src="js/main-min.js"></script>
 </body>
 
 </html>

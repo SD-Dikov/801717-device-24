@@ -6,7 +6,7 @@
   <title>HTML Academy: Девайс</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-min.css">
 </head>
 
 <body>
@@ -16,14 +16,14 @@
         <a href="index.html" class="main-header-logo">
           <img src="img/main-header-logo.svg" alt="Логотип сайта Девайс" width="163" height="35">
         </a>
-        <form class="main-header-site-search" action="index.html" method="get">
+        <form class="main-header-site-search" action="https://echo.htmlacademy.ru" method="post">
           <div class="main-header-site-search-input-box">
-            <input class="main-header-site-search-input" type="search" name="search" placeholder="Поиск по сайту">
-            <button type="submit" name="search-btn" class="main-header-site-search-btn">Найти</button>
+            <input class="main-header-site-search-input" type="text" name="search" placeholder="Поиск по сайту">
+            <button type="submit" class="main-header-site-search-btn">Найти</button>
           </div>
         </form>
         <div class="main-header-catalog">
-          <a href="catalog" class="main-header-navigation-catalog-btn">Каталог товаров</a>
+          <a class="main-header-navigation-catalog-btn">Каталог товаров</a>
           <div class="main-header-catalog-navigation-wrapper">
             <ul class="main-header-catalog-navigation main-header-catalog-navigation-1">
               <li class="main-header-catalog-navigation-item">
@@ -178,7 +178,7 @@
             </div>
             <ul class="sorting-list">
               <li class="sorting-option current">
-                <a class="sorting-link sorting-price" href="#">По цене</a>
+                <a class="sorting-link sorting-price">По цене</a>
               </li>
               <li class="sorting-option">
                 <a class="sorting-link sorting-type" href="#">По типу</a>
@@ -192,7 +192,7 @@
                 <a class="sorting-arrows-link sorting-arrows-link-ascending" href="#"><span class="visually-hidden">По возрастанию</span></a>
               </li>
               <li class="sorting-arrows-option">
-                <a class="sorting-arrows-link sorting-arrows-link-descending  current" href="#"><span class="visually-hidden">По убыванию</span></a>
+                <a class="sorting-arrows-link sorting-arrows-link-descending  current"><span class="visually-hidden">По убыванию</span></a>
               </li>
             </ul>
           </div>
@@ -202,10 +202,10 @@
             <li class="catalog-items-item">
               <div class="catalog-items-item-image">
                 <img src="img/amateur-selfie-stick.jpg" alt="Любительская селфи-палка" width="360" height="380">
-                <div class="catalog-items-item-btn-box">
-                  <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
-                  <button type="button" class="btn-comparison">Добавить к сравнению</button>
-                </div>
+              </div>
+              <div class="catalog-items-item-btn-box">
+                <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
+                <button type="button" class="btn-comparison">Добавить к сравнению</button>
               </div>
               <p class="catalog-items-item-text">
                 <a class="catalog-items-item-link" href="/catalog-items-item.html">Любительская селфи-палка</a>
@@ -215,10 +215,10 @@
             <li class="catalog-items-item">
               <div class="catalog-items-item-image">
                 <img src="img/professional-selfie-stick.jpg" alt="Профессиональная селфи-палка" width="360" height="380">
-                <div class="catalog-items-item-btn-box">
-                  <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
-                  <button type="button" class="btn-comparison">Добавить к сравнению</button>
-                </div>
+              </div>
+              <div class="catalog-items-item-btn-box">
+                <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
+                <button type="button" class="btn-comparison">Добавить к сравнению</button>
               </div>
               <p class="catalog-items-item-text">
                 <a class="catalog-items-item-link" href="/catalog-items-item.html">Профессиональная<br> селфи-палка</a>
@@ -228,10 +228,10 @@
             <li class="catalog-items-item">
               <div class="catalog-items-item-image">
                 <img src="img/water-selfie-stick.jpg" alt="Непотопляемая селфи-палка" width="360" height="380">
-                <div class="catalog-items-item-btn-box">
-                  <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
-                  <button type="button" class="btn-comparison">Добавить к сравнению</button>
-                </div>
+              </div>
+              <div class="catalog-items-item-btn-box">
+                <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
+                <button type="button" class="btn-comparison">Добавить к сравнению</button>
               </div>
               <p class="catalog-items-item-text">
                 <a class="catalog-items-item-link" href="/catalog-items-item.html">Непотопляемая селфи-палка</a>
@@ -241,10 +241,10 @@
             <li class="catalog-items-item items-new">
               <div class="catalog-items-item-image">
                 <img src="img/follow-selfie-stick.jpg" alt="Селфи-палка «Следуй за мной»" width="360" height="380">
-                <div class="catalog-items-item-btn-box">
-                  <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
-                  <button type="button" class="btn-comparison">Добавить к сравнению</button>
-                </div>
+              </div>
+              <div class="catalog-items-item-btn-box">
+                <button type="button" class="main-btn catalog-items-item-btn-cart">В корзину</button>
+                <button type="button" class="btn-comparison">Добавить к сравнению</button>
               </div>
               <p class="catalog-items-item-text">
                 <a class="catalog-items-item-link" href="/catalog-items-item.html">Селфи-палка «Следуй за<br> мной»</a>
@@ -319,17 +319,36 @@
         </div>
         <div class="main-footer-line main-footer-line-3">
           <ul class="main-footer-social-list">
-            <li class="social-item"><a class="main-footer-social-button social-faceb" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
-            <li class="social-item"><a class="main-footer-social-button social-insta" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
-            <li class="social-item"><a class="main-footer-social-button social-twitter" href="#"><span class="visually-hidden">Твиттер</span></a></li>
+            <li class="social-item">
+              <a class="main-footer-social-button social-faceb" href="#">
+                <span class="visually-hidden">Фейсбук</span>
+                <img src="img/fb.svg" alt="наш Фейсбук" width="32" height="32">
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="main-footer-social-button social-insta" href="#">
+                <span class="visually-hidden">Инстаграм</span>
+                <img src="img/instagram.svg" alt="наш Инстаграм" width="32" height="32">
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="main-footer-social-button social-twitter" href="#">
+                <span class="visually-hidden">Твиттер</span>
+                <img src="img/twitter.svg" alt="наш Твиттер" width="32" height="32">
+              </a>
+            </li>
           </ul>
-          <p class="main-footer-copyright">
-            <a class="mainfooter-copyright-button" href="https://htmlacademy.ru"><span class="visually-hidden">HTML Academy</span></a>
-          </p>
+          <div class="main-footer-copyright">
+            <a class="mainfooter-copyright-button" href="https://htmlacademy.ru">
+              <span class="visually-hidden">HTML Academy</span>
+              <img src="img/logo-html.svg" alt="лого HTML Academy" width="27" height="35">
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </footer>
+  <script src="js/catalog-min.js"></script>
 </body>
 
 </html>

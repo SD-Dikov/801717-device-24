@@ -1,0 +1,1 @@
+var searchInput=document.querySelector(".main-header-site-search-input"),searchBox=document.querySelector(".main-header-site-search-input-box");searchInput.addEventListener("blur",function(){searchInput.value?searchBox.classList.add("show"):!searchInput.value&&searchBox.classList.contains("show")&&searchBox.classList.remove("show")});
