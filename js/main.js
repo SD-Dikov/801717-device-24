@@ -15,41 +15,48 @@ var form = document.querySelector(".feedback-form");
 var fullname = document.querySelector(".fullname-input");
 var email = document.querySelector(".email-input");
 
-feedbackLink.addEventListener("click", function(evnt) {
-  evnt.preventDefault();
-  feedbackPopup.classList.add("show");
-  feedbackPopupCloseBox.classList.add("show");
-});
-
-feedbackPopupClose.addEventListener("click", function(evnt) {
-  evnt.preventDefault();
-  feedbackPopup.classList.remove("show");
-  feedbackPopupCloseBox.classList.remove("show");
-});
-
-feedbackPopupCloseBox.addEventListener("click", function(evnt) {
-  evnt.preventDefault();
-  feedbackPopup.classList.remove("show");
-  feedbackPopupCloseBox.classList.remove("show");
-});
-mapLink.addEventListener("click", function(evnt) {
-  evnt.preventDefault();
-  mapPopup.classList.add("show");
-  mapPopupCloseBox.classList.add("show");
-});
-
-mapPopupClose.addEventListener("click", function(evnt) {
-  evnt.preventDefault();
-  mapPopup.classList.remove("show");
-  mapPopupCloseBox.classList.remove("show");
-});
-
-mapPopupCloseBox.addEventListener("click", function(evnt) {
-  evnt.preventDefault();
-  mapPopup.classList.remove("show");
-  mapPopupCloseBox.classList.remove("show");
-});
-
+if (feedbackLink) {
+  feedbackLink.addEventListener("click", function(evnt) {
+    evnt.preventDefault();
+    feedbackPopup.classList.add("show");
+    feedbackPopupCloseBox.classList.add("show");
+  })
+};
+if (feedbackPopupClose) {
+  feedbackPopupClose.addEventListener("click", function(evnt) {
+    evnt.preventDefault();
+    feedbackPopup.classList.remove("show");
+    feedbackPopupCloseBox.classList.remove("show");
+  })
+};
+if (feedbackPopupCloseBox) {
+  feedbackPopupCloseBox.addEventListener("click", function(evnt) {
+    evnt.preventDefault();
+    feedbackPopup.classList.remove("show");
+    feedbackPopupCloseBox.classList.remove("show");
+  })
+};
+if (mapLink) {
+  mapLink.addEventListener("click", function(evnt) {
+    evnt.preventDefault();
+    mapPopup.classList.add("show");
+    mapPopupCloseBox.classList.add("show");
+  })
+};
+if (mapPopupClose) {
+  mapPopupClose.addEventListener("click", function(evnt) {
+    evnt.preventDefault();
+    mapPopup.classList.remove("show");
+    mapPopupCloseBox.classList.remove("show");
+  })
+};
+if (mapPopupCloseBox) {
+  mapPopupCloseBox.addEventListener("click", function(evnt) {
+    evnt.preventDefault();
+    mapPopup.classList.remove("show");
+    mapPopupCloseBox.classList.remove("show");
+  })
+};
 window.addEventListener("keydown", function(evnt) {
   if (evnt.keyCode === 27) {
     if (feedbackPopup.classList.contains("show")) {
@@ -68,7 +75,6 @@ window.addEventListener("keydown", function(evnt) {
     }
   }
 });
-
 searchInput.addEventListener("blur", function() {
   if (searchInput.value) {
     searchBox.classList.add("show");
@@ -76,21 +82,39 @@ searchInput.addEventListener("blur", function() {
     searchBox.classList.remove("show");
   }
 });
-
-form.addEventListener("submit", function(evt) {
-  if (!fullname.value || !email.value) {
-    evt.preventDefault();
-    form.classList.add("invalid");
-  }
-});
-email.addEventListener("focus", function() {
-  if (form.classList.contains("invalid")) {
-    console.log("123");
-    form.classList.remove("invalid");
-  }
-});
-fullname.addEventListener("focus", function() {
-  if (form.classList.contains("invalid")) {
-    form.classList.remove("invalid");
-  }
-});
+if (form) {
+  form.addEventListener("submit", function(evt) {
+    if (!fullname.value || !email.value) {
+      evt.preventDefault();
+      if (form.classList.contains("invalid")) {
+        form.classList.remove("invalid");
+        form.classList.add("again-invalid");
+      } else {
+        if (form.classList.contains("again-invalid")) {
+          form.classList.remove("again-invalid")
+        }
+        form.classList.add("invalid");
+      }
+    }
+  })
+};
+if (email) {
+  email.addEventListener("focus", function() {
+    if (form.classList.contains("invalid")) {
+      form.classList.remove("invalid");
+    }
+    if (form.classList.contains("again-invalid")) {
+      form.classList.remove("again-invalid");
+    }
+  })
+};
+if (fullname) {
+  fullname.addEventListener("focus", function() {
+    if (form.classList.contains("invalid")) {
+      form.classList.remove("invalid");
+    }
+    if (form.classList.contains("again-invalid")) {
+      form.classList.remove("again-invalid");
+    }
+  })
+};

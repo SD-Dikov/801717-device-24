@@ -55,6 +55,29 @@
   }
 }
 
+@keyframes shake-2 {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
 html {
   box-sizing: border-box;
 }
@@ -2322,6 +2345,13 @@ button {
 .feedback-form.invalid .email-input {
   background-color: #edb5b5;
   animation-name: shake;
+  animation-duration: 0.6s;
+}
+
+.feedback-form.again-invalid .fullname-input,
+.feedback-form.again-invalid .email-input {
+  background-color: #edb5b5;
+  animation-name: shake-2;
   animation-duration: 0.6s;
 }
 
